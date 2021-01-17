@@ -1,0 +1,5 @@
+https://tailwindcss.com/docs/installation#post-css-7-compatibility-build
+
+https://daveceddia.com/tailwind-create-react-app/
+
+https://medium.com/swlh/getting-started-with-react-typescript-tailwind-classnames-in-minutes-5da35256b59a

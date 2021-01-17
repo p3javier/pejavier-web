@@ -12,6 +12,8 @@
 /build
 
 # misc
+.eslintcache
+tailwind.output.css
 .DS_Store
 .env.local
 .env.development.local
