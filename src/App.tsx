@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
 
 function App() {
@@ -7,15 +7,15 @@ function App() {
   console.log("toggle", toggle);
 
   const buttonClasses = toggle
-    ? "nm-flat-red-500-lg hover:nm-convex-red-500-lg"
+    ? "nm-flat-red-500-lg rounded-full hover:nm-convex-red-500-lg rounded-full"
     : "bg-blue-500 hover:bg-blue-500";
   return (
-    <div className="bg-gray-200 flex items-center justify-center h-screen">
+    <div className="flex items-center justify-center h-screen">
       <button
         className={`p-3 rounded-sm ${buttonClasses}`}
         onClick={() => setToggle(!toggle)}
       >
-        Toggle
+        Toggle dsfdssdfdsfsdfdsfsdf
       </button>
     </div>
   );
