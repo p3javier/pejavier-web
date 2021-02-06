@@ -6,5 +6,8 @@ module.exports = {
     "src/**/*.tsx",
     "public/**/*.html",
   ],
-  plugins: [require("tailwindcss-neumorphism")],
+  plugins: [
+    require("tailwindcss-neumorphism"),
+    require("@mjwebs/tailwindcss-frosted"),
+  ],
 };
