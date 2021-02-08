@@ -10,4 +10,12 @@ module.exports = {
     require("tailwindcss-neumorphism"),
     require("@mjwebs/tailwindcss-frosted"),
   ],
+  theme: {
+    extend: {
+      transitionDuration: {
+        0: "0ms",
+        2000: "2000ms",
+      },
+    },
+  },
 };
