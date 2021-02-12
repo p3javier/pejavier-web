@@ -11,12 +11,14 @@ const LaptopAnimation = () => {
     },
   };
   return (
-    <Lottie
-      options={defaultOptions}
-      height={400}
-      width={400}
-      isClickToPauseDisabled={true}
-    />
+    <div className="w-1/2">
+      <Lottie
+        options={defaultOptions}
+        height={400}
+        width={400}
+        isClickToPauseDisabled={true}
+      />
+    </div>
   );
 };
 
