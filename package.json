@@ -22,6 +22,7 @@
     "react-dom": "^17.0.1",
     "react-lottie": "^1.2.3",
     "react-scripts": "4.0.1",
+    "scrollreveal": "^4.0.7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "tailwindcss-neumorphism": "^0.1.0",
     "typescript": "^4.0.3",
@@ -59,6 +60,7 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.1.10",
     "@types/react-lottie": "^1.2.5",
+    "@types/scrollreveal": "^0.0.6",
     "@types/testing-library__jest-dom": "^5.9.5"
   }
 }
