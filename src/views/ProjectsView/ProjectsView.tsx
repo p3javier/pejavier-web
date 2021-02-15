@@ -1,8 +1,9 @@
+import Tabs from "../../components/Tabs/Tabs";
+
 const ProjectsView = () => {
   return (
     <div>
-      <div>{"project  1"}</div>
-      <div>{"project  2"}</div>
+      <Tabs />
     </div>
   );
 };
