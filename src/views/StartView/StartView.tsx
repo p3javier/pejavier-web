@@ -10,7 +10,7 @@ const bioText =
 
 const StartView = () => {
   return (
-    <div className="startview  flex flex-col items-center flex-wrap overflow-auto mb-56">
+    <div className="flex flex-col items-center flex-wrap overflow-auto mb-56">
       <div className="my-2 px-8 mt-20">
         <ImageProfile />
       </div>
@@ -21,7 +21,7 @@ const StartView = () => {
 
       <div className="my-2 px-8">
         <button
-          className={`p-3 nm-flat-green-400-lg rounded-full hover:nm-convex-green-500-lg`}
+          className={`p-3 nm-flat-green-400-lg rounded-full hover:nm-convex-green-500-lg focus:outline-none`}
         >
           <FontAwesomeIcon className="text-white text-xl" icon={faArrowDown} />
         </button>

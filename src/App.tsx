@@ -18,8 +18,9 @@ function App() {
       <ScrollReveal style={{ backgroundColor: "rgba(0, 0, 0,0)" }}>
         <About />
       </ScrollReveal>
-
-      <ProjectsView />
+      <ScrollReveal style={{ backgroundColor: "rgba(0, 0, 0,0)" }}>
+        <ProjectsView />
+      </ScrollReveal>
     </div>
   );
 }

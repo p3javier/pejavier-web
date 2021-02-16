@@ -3,30 +3,30 @@ import { TabGroup } from "@statikly/funk";
 
 const Tabs = () => {
   return (
-    <div className="container h-screen w-screen flex flex-wrap">
+    <div className="container flex flex-wrap  px-8 outline-none">
       <TabGroup numTabs={3} direction={TabGroup.direction.VERTICAL}>
         <TabGroup.TabList>
           <TabGroup.Tab
             index={0}
-            className="w-full h-12 px-12 transition-colors duration-150"
-            activeClassName="bg-black text-white"
-            inactiveClassName="text-black"
+            className="my-4 text-lg subpixel-antialiased font-semibold nm-flat-gray-200 rounded-full w-full h-12 px-12 transition-colors duration-150 focus:outline-none"
+            activeClassName="bg-black text-black nm-inset-blue-300-lg"
+            inactiveClassName="text-black hover:nm-convex-gray-200-lg"
           >
             Tab 1
           </TabGroup.Tab>
           <TabGroup.Tab
             index={1}
-            className="w-full h-12 px-12 transition-colors duration-150"
-            activeClassName="bg-black text-white"
-            inactiveClassName="text-black"
+            className="my-4 text-lg subpixel-antialiased font-semibold nm-flat-gray-200 rounded-full w-full h-12 px-12 transition-colors duration-150 focus:outline-none"
+            activeClassName="bg-black text-black nm-inset-blue-300-lg"
+            inactiveClassName="text-black hover:nm-convex-gray-200-lg"
           >
             Tab with input
           </TabGroup.Tab>
           <TabGroup.Tab
             index={2}
-            className="w-full h-12 px-12 transition-colors duration-150"
-            activeClassName="bg-black text-white"
-            inactiveClassName="text-black"
+            className="my-4 text-lg subpixel-antialiased font-semibold nm-flat-gray-200 rounded-full w-full h-12 px-12 transition-colors duration-150 focus:outline-none"
+            activeClassName="bg-black text-black nm-inset-blue-300-lg"
+            inactiveClassName="text-black hover:nm-convex-gray-200-lg"
           >
             Tab 3
           </TabGroup.Tab>

@@ -12,7 +12,7 @@ const ScrollReveal: FC<ScrollRevealProps> = ({ children, style }) => {
     if (sectionRef.current)
       scrollReveal().reveal(sectionRef.current, {
         reset: true,
-        delay: 777,
+        delay: 650,
       });
   }, []);
 
@@ -20,7 +20,7 @@ const ScrollReveal: FC<ScrollRevealProps> = ({ children, style }) => {
     <section
       ref={sectionRef}
       style={style}
-      className="container scroll-section"
+      className="container scroll-section outline-none"
       data-testid="section"
     >
       {children}
