@@ -4,7 +4,7 @@ import TextBlock from "../../components/TextBlock/TextBlock";
 
 const About = () => {
   return (
-    <div className="flex flex-wrap overflow-hidden px-10 mt-36 outline-none">
+    <div className="flex flex-wrap overflow-hidden px-32 mt-36 outline-none">
       <TextBlock />
       <LaptopAnimation />
     </div>

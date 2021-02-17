@@ -1,5 +1,3 @@
-import "./App.css";
-
 import NavbarMenu from "./components/NavbarMenu/NavbarMenu";
 
 import StartView from "./views/StartView/StartView";
