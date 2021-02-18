@@ -4,6 +4,8 @@ import Tabs from "../../components/Tabs/Tabs";
 
 import PersonalWebsite from "./PersonalWebsite";
 
+import MapaMelange from "./MapaMelange";
+
 const ProjectsView = () => {
   return (
     <div className="container">
@@ -13,7 +15,10 @@ const ProjectsView = () => {
       >
         Projects
       </h1>
-      <Tabs childComp={<PersonalWebsite />} />
+      <Tabs
+        personalWebsite={<PersonalWebsite />}
+        mapaMelange={<MapaMelange />}
+      />
     </div>
   );
 };
