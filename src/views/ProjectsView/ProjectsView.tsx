@@ -1,4 +1,8 @@
+import React from "react";
+
 import Tabs from "../../components/Tabs/Tabs";
+
+import PersonalWebsite from "./PersonalWebsite";
 
 const ProjectsView = () => {
   return (
@@ -9,7 +13,7 @@ const ProjectsView = () => {
       >
         Projects
       </h1>
-      <Tabs />
+      <Tabs childComp={<PersonalWebsite />} />
     </div>
   );
 };
