@@ -1,6 +1,6 @@
 import React from "react";
-import ImageProfile from "../../components/ImageProfile/ImageProfile";
-import BioSummary from "../../components/BioSummary/BioSummary";
+import ImageProfile from "components/ImageProfile/ImageProfile";
+import BioSummary from "components/BioSummary/BioSummary";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +10,10 @@ const bioText =
 
 const StartView = () => {
   return (
-    <div className="flex flex-col items-center flex-wrap overflow-auto mb-56">
+    <div
+      id="start"
+      className="flex flex-col items-center flex-wrap overflow-auto mb-56"
+    >
       <div className="my-2 px-8 mt-20">
         <ImageProfile />
       </div>

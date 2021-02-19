@@ -1,5 +1,5 @@
 import Lottie from "react-lottie";
-import animationData from "../../assets/lotties/18123-developer.json";
+import animationData from "assets/lotties/18123-developer.json";
 
 const LaptopAnimation = () => {
   const defaultOptions = {

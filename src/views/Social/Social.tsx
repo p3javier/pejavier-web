@@ -2,11 +2,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-import SectionTitle from "../../components/SectionTitle/SectionTitle";
+import SectionTitle from "components/SectionTitle/SectionTitle";
 
 const Social = () => {
   return (
-    <div className="flex flex-wrap items-center justify-center h-screen text-white text-xl">
+    <div
+      id="social"
+      className="flex flex-wrap items-center justify-center h-screen text-white text-xl"
+    >
       <div className="w-screen text-center">
         <SectionTitle title="Social" />
       </div>

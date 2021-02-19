@@ -1,7 +1,7 @@
 import Start from "./Start";
 import About from "./About";
 import Projects from "./Projects";
-import Contact from "./Contact";
+import Social from "./Social";
 
 const NavbarLinks = () => {
   return (
@@ -10,7 +10,7 @@ const NavbarLinks = () => {
         <Start />
         <About />
         <Projects />
-        <Contact />
+        <Social />
       </div>
     </div>
   );

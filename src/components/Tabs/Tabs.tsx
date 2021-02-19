@@ -4,6 +4,7 @@ import { TabGroup } from "@statikly/funk";
 interface ParentCompProps {
   personalWebsite?: React.ReactNode;
   mapaMelange?: React.ReactNode;
+  extremumEcommerce?: React.ReactNode;
 }
 
 const tabClass =
@@ -16,7 +17,11 @@ const activeTabPanelClass =
   "opacity-100 duration-500 translate-x-0 bg-white bg-opacity-25 rounded-2xl text-lg";
 const inactiveTabPanelClass = "absolute opacity-0 -translate-x-2";
 
-const Tabs: FC<ParentCompProps> = ({ personalWebsite, mapaMelange }) => {
+const Tabs: FC<ParentCompProps> = ({
+  personalWebsite,
+  mapaMelange,
+  extremumEcommerce,
+}) => {
   return (
     <div className="flex flex-wrap  mx-32 outline-none">
       <TabGroup numTabs={4} direction={TabGroup.direction.HORIZONTAL}>
@@ -76,7 +81,7 @@ const Tabs: FC<ParentCompProps> = ({ personalWebsite, mapaMelange }) => {
           activeClassName={activeTabPanelClass}
           inactiveClassName={inactiveTabPanelClass}
         >
-          Content 3
+          {extremumEcommerce}
         </TabGroup.TabPanel>
         <TabGroup.TabPanel
           index={3}
