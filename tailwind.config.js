@@ -1,15 +1,19 @@
 module.exports = {
-  purge: [
-    "src/**/*.js",
-    "src/**/*.jsx",
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "public/**/*.html",
-  ],
-  plugins: [
-    require("tailwindcss-neumorphism"),
-    require("@mjwebs/tailwindcss-frosted"),
-  ],
+  purge: {
+    mode: "all",
+    preserveHtmlElements: false,
+    content: [
+      "src/**/*.js",
+      "src/**/*.jsx",
+      "src/**/*.ts",
+      "src/**/*.tsx",
+      "public/**/*.html",
+    ],
+    options: {
+      keyframes: true,
+    },
+  },
+  plugins: [require("tailwindcss-neumorphism")],
   theme: {
     extend: {
       transitionDuration: {

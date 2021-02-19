@@ -1431,11 +1431,6 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@mjwebs/tailwindcss-frosted@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@mjwebs/tailwindcss-frosted/-/tailwindcss-frosted-1.0.3.tgz#1f4ee3768680babf772c8b831cb5ef02330d85ea"
-  integrity sha512-REHbTdPW2ap8+ePsi4qV+RYPACeOufsr+xEhj9gmwOjjHSxfzGpYMhAxfz/GB5YjzJA2cMIYYpvgIe/kSNKKqw==
-
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.3.tgz#3a582bdb53804c6ba6d146579c46e52130cf4a3b"
