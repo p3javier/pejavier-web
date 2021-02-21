@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import GLink from "components/GradientLink/GLink";
 
 const MapaMelange: FC = () => {
   return (
@@ -14,6 +15,14 @@ const MapaMelange: FC = () => {
         <li>CityBik API</li>
         <li>Open Street Map and MapTiler (as tiles providers)</li>
       </ul>
+      <br />
+      <GLink url="https://mapa-melange.netlify.app/" text="Website" />
+      <br />
+      <div className="py-2"></div>
+      <GLink
+        url="https://github.com/p3javier/mapa-melange"
+        text="Project on Github"
+      />
     </>
   );
 };

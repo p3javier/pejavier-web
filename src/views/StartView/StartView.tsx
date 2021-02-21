@@ -23,11 +23,16 @@ const StartView = () => {
       </div>
 
       <div className="my-2 px-8">
-        <button
-          className={`p-3 nm-flat-green-400-lg rounded-full hover:nm-convex-green-500-lg focus:outline-none`}
-        >
-          <FontAwesomeIcon className="text-white text-xl" icon={faArrowDown} />
-        </button>
+        <a href="#about">
+          <button
+            className={`p-3 nm-flat-green-400-lg rounded-full hover:nm-convex-green-500-lg focus:outline-none`}
+          >
+            <FontAwesomeIcon
+              className="text-white text-xl"
+              icon={faArrowDown}
+            />
+          </button>
+        </a>
       </div>
     </div>
   );
