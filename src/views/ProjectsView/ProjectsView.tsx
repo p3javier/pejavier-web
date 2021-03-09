@@ -12,7 +12,7 @@ import ExtremumEcommerce from "./ExtremumEcommerce";
 
 const ProjectsView = () => {
   return (
-    <div className="overflow-hidden" id="projects">
+    <div className="" id="projects">
       <SectionTitle title="Projects" />
       <div className="mt-16 overflow-hidden">
         <Tabs
