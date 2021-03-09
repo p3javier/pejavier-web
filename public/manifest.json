@@ -8,9 +8,10 @@
       "type": "image/x-icon"
     },
     {
-      "src": "android-chrome-192x192.png",
+      "src": "maskable_icon.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "maskable"
     },
     {
       "src": "android-chrome-512x512.png",
@@ -24,7 +25,7 @@
     "type": "image/webp"
   },
   "start_url": ".",
-  "display": "minimal-ui",
+  "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }

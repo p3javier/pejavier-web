@@ -23,7 +23,7 @@ const Tabs: FC<ParentCompProps> = ({
   extremumEcommerce,
 }) => {
   return (
-    <div className="flex flex-wrap  mx-32 outline-none">
+    <div className="flex-wrap  mx-32 outline-none max-w-full block">
       <TabGroup numTabs={4} direction={TabGroup.direction.HORIZONTAL}>
         <TabGroup.TabList>
           <TabGroup.Tab
