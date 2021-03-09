@@ -14,7 +14,7 @@ const ProjectsView = () => {
   return (
     <div className="" id="projects">
       <SectionTitle title="Projects" />
-      <div className="mt-16 overflow-hidden">
+      <div className="mt-16">
         <Tabs
           personalWebsite={<PersonalWebsite />}
           mapaMelange={<MapaMelange />}
