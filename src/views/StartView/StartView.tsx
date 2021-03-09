@@ -12,7 +12,7 @@ const StartView = () => {
   return (
     <div
       id="start"
-      className="flex flex-col items-center flex-wrap overflow-auto mb-56"
+      className="flex flex-col items-center flex-wrap overflow-hidden mb-56"
     >
       <div className="my-2 px-8 mt-20">
         <ImageProfile />

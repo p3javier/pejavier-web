@@ -12,7 +12,7 @@ import ScrollReveal from "./components/ScrollReveal/ScrollReveal";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-x-hidden" id="app">
       <NavbarMenu />
       <StartView />
       <ScrollReveal style={{ backgroundColor: "rgba(0, 0, 0,0)" }}>
