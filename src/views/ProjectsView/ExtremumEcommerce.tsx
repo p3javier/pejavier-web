@@ -3,7 +3,7 @@ import GLink from "components/GradientLink/GLink";
 
 const ExtremumEcommerce: FC = () => {
   return (
-    <>
+    <div className="overflow-hidden">
       <p>This website was created using the following technologies:</p>
       <br />
       <ul className="list-disc list-inside">
@@ -22,7 +22,7 @@ const ExtremumEcommerce: FC = () => {
         url="https://github.com/p3javier/extremum-ecommerce-new"
         text="Project on Github"
       />
-    </>
+    </div>
   );
 };
 

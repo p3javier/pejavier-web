@@ -12,7 +12,7 @@ const tabClass =
 const tabActiveClass = "bg-black text-black nm-inset-blue-300-lg";
 const tabInactiveClass = "text-black hover:nm-convex-gray-200-lg";
 
-const tabPanelClass = "w-max h-full p-12 transition-all transform";
+const tabPanelClass = "h-full p-12 transition-all transform";
 const activeTabPanelClass =
   "opacity-100 duration-500 translate-x-0 bg-white bg-opacity-25 rounded-2xl text-lg";
 const inactiveTabPanelClass = "absolute opacity-0 -translate-x-2";

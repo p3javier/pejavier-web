@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div id="about">
       <SectionTitle title="About me" />
-      <div className="flex flex-wrap px-32 mt-20 outline-none">
+      <div className="flex flex-wrap px-32 mt-20 outline-none overflow-hidden">
         <TextBlock />
         <LaptopAnimation />
       </div>

@@ -3,7 +3,7 @@ import GLink from "components/GradientLink/GLink";
 
 const MapaMelange: FC = () => {
   return (
-    <>
+    <div className="overflow-hidden">
       <p>This website was created using the following technologies:</p>
       <br />
       <ul className="list-disc list-inside">
@@ -23,7 +23,7 @@ const MapaMelange: FC = () => {
         url="https://github.com/p3javier/mapa-melange"
         text="Project on Github"
       />
-    </>
+    </div>
   );
 };
 
