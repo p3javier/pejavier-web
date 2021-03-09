@@ -1,6 +1,6 @@
 /* eslint-disable no-restricted-globals */
 var CACHE_NAME = "pwa-task-manager";
-var urlsToCache = ["/", "/completed"];
+var urlsToCache = ["https://pejavier.com/"];
 
 // Install a service worker
 self.addEventListener("install", (event) => {
