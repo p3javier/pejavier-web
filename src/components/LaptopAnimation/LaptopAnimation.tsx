@@ -11,12 +11,12 @@ const LaptopAnimation = () => {
     },
   };
   return (
-    <div className="w-1/2">
+    <div className="w-2/3 xs:w-2/3 sm:w-2/3 lg:w-full">
       <Lottie
         options={defaultOptions}
-        height={400}
-        width={400}
         isClickToPauseDisabled={true}
+        width="50%"
+        height="60%"
       />
     </div>
   );

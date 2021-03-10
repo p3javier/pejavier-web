@@ -19,11 +19,13 @@
       "sizes": "512x512"
     }
   ],
-  "screenshots": {
-    "src": "images/pejavier-screenshot.webp",
-    "sizes": "1549x945",
-    "type": "image/webp"
-  },
+  "screenshots": [
+    {
+      "src": "images/pejavier-screenshot.webp",
+      "sizes": "1549x945",
+      "type": "image/webp"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

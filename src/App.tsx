@@ -12,7 +12,7 @@ import ScrollReveal from "./components/ScrollReveal/ScrollReveal";
 
 function App() {
   return (
-    <div className="" id="app">
+    <div className="max-w-full" id="app">
       <NavbarMenu />
       <StartView />
       <ScrollReveal style={{ backgroundColor: "rgba(0, 0, 0,0)" }}>
@@ -29,3 +29,8 @@ function App() {
 }
 
 export default App;
+/**
+ * <ScrollReveal style={{ backgroundColor: "rgba(0, 0, 0,0)" }}>
+        <ProjectsView />
+      </ScrollReveal>
+ */

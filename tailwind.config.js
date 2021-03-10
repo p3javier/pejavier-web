@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   purge: {
     enabled: true,
@@ -16,6 +18,10 @@ module.exports = {
   },
   plugins: [require("tailwindcss-neumorphism")],
   theme: {
+    screens: {
+      xs: "480px",
+      ...defaultTheme.screens,
+    },
     extend: {
       transitionDuration: {
         0: "0ms",

@@ -29,7 +29,7 @@ const dummy = (
 );
 
 const TextBlock = () => {
-  return <div className="w-1/2 text-white">{dummy}</div>;
+  return <div className="w-3/4 xs:w-1/2 text-white">{dummy}</div>;
 };
 
 export default TextBlock;
