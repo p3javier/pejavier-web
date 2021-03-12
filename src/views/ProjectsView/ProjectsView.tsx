@@ -12,7 +12,7 @@ import ExtremumEcommerce from "./ExtremumEcommerce";
 
 const ProjectsView = () => {
   return (
-    <div className="" id="projects">
+    <div className="mt-20" id="projects">
       <SectionTitle title="Projects" />
       <div className="mt-16">
         <Tabs

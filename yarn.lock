@@ -1513,11 +1513,12 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@statikly/funk@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@statikly/funk/-/funk-0.2.0.tgz#cbd55bb66d56db15c40a7c711071dfd53b78291d"
-  integrity sha512-rK/wKIChOJllMTsIqCQdOVkn5U+inhnYuNoPH12DMbGgPnekaIQ+8zrxQQkulbnP4yoZpW1sw+RCXP3PaziVQA==
+"@statikly/funk@0.3.0-alpha.1":
+  version "0.3.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@statikly/funk/-/funk-0.3.0-alpha.1.tgz#38a7f0a07dad2736dab6726e029aaf13f43619c5"
+  integrity sha512-3NhKV9Bmvwo+6itactcCjzJLOkBYIDENOwyyB2iOIlalnT2IQiOaPP38abY69rlFENjpde2E6M7veN9pLnVZZQ==
   dependencies:
+    react-swipeable "^5.5.1"
     react-uid "^2.3.0"
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
@@ -9032,7 +9033,7 @@ prompts@2.4.0, prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -9350,6 +9351,13 @@ react-scripts@4.0.1:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-swipeable@^5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/react-swipeable/-/react-swipeable-5.5.1.tgz#48ae6182deaf62f21d4b87469b60281dbd7c4a76"
+  integrity sha512-EQObuU3Qg3JdX3WxOn5reZvOSCpU4fwpUAs+NlXSN3y+qtsO2r8VGkVnOQzmByt3BSYj9EWYdUOUfi7vaMdZZw==
+  dependencies:
+    prop-types "^15.6.2"
 
 react-uid@^2.3.0:
   version "2.3.1"

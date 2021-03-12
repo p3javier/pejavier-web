@@ -11,7 +11,7 @@ const Component1 = () => {
             className=" p-1 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
             onClick={() => window.open("https://github.com/p3javier", "_blank")}
           >
-            <span className="sr-only">View notifications</span>
+            <span className="sr-only">Go to GitHub</span>
             <img className="h-8 w-auto" src={icon} alt="icon" />
           </button>
         </div>

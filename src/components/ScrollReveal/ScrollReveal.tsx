@@ -20,7 +20,7 @@ const ScrollReveal: FC<ScrollRevealProps> = ({ children, style }) => {
     <section
       ref={sectionRef}
       style={style}
-      className="container scroll-section outline-none"
+      className="container outline-none"
       data-testid="section"
     >
       {children}

@@ -1,4 +1,4 @@
-import NavbarMenu from "./components/NavbarMenu/NavbarMenu";
+import Navbar from "./components/Navbar/Navbar";
 
 import StartView from "./views/StartView/StartView";
 
@@ -13,7 +13,7 @@ import ScrollReveal from "./components/ScrollReveal/ScrollReveal";
 function App() {
   return (
     <div className="max-w-full" id="app">
-      <NavbarMenu />
+      <Navbar />
       <StartView />
       <ScrollReveal style={{ backgroundColor: "rgba(0, 0, 0,0)" }}>
         <About />

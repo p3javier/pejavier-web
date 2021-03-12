@@ -1,5 +1,5 @@
 import React from "react";
-import Component1 from "./Component1";
+import NavbarMenu from "./NavbarMenu";
 
 function NavBarMenu() {
   return (
@@ -7,7 +7,7 @@ function NavBarMenu() {
       className="bg-gray-800 bg-opacity-50 bg-clip-padding z-50 fixed w-screen"
       style={{ backdropFilter: "blur(20px)" }}
     >
-      <Component1 />
+      <NavbarMenu />
     </nav>
   );
 }
